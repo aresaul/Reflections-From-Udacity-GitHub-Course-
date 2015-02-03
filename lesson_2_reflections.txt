@@ -9,3 +9,8 @@ it offers?
 to differentiate between what is saved (in the working directory) and what is committed (in git).
 The advantage of having such an area is that it allows the user to change single or multiple files in 
 a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-You can use the staging area in this way by using the git status or git diff (no arguments) or
+git diff(-- staged) commands.  These will tell you what changes have been made to the current version
+of the file in the staging area.  In this way, you can make sure to do one commit per logical change.
