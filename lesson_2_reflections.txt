@@ -1,0 +1,5 @@
+What happens when you initialize a repository?  Why do you need to do it?
+-When you initialize a repository, git creates a file inside the repository (a .git file) so that 
+the changes to that directory can be tracked.  I need to remember that it doesn't automatically commit
+for you, the first commit (just like subsequent commits) needs to be made manually.
+
