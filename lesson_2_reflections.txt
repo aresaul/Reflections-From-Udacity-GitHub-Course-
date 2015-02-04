@@ -20,3 +20,8 @@ would branches help?
 -Some situations were as the lecturer mentioned.  If you're working on an experimental feature of a program,
 working in a different language, etc.  These all would be situations in which you'd like to create a branching
 structure for your repository.
+
+How do the diagrams help you visualize the branch structure?
+-Seeing a diagram of a branch structure makes it really easy to see exactly what's going on with the overall
+structure of your git commit history.  Instead of navigating git logs via ID's, date & time (and branch name),
+you can easily see this structure in a diagram.
