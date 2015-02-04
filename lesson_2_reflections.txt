@@ -30,3 +30,10 @@ What is the result of merging two branches together?  Why do we represent it in 
 -Merging two branches together will examine the changes between the two branches, using their most recent
 common ancestor commit to decide on certain changes.  In this way, we can "smart merge" them into one
 another.  It's helpful to represent them as a diagram so that we can visually see what's going on.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+-A huge pro of doing automatic merging is that you don't have to go through the code line by line
+in order to decide what to include and exlude - git does this for you for lots of the code.  In situations
+where it can't, it asks you.  Simple as that.  One con is that automatic merging doesn't always know
+what to incorporate and what not to incorporate into the final version, so you don't necessarily have
+full control.
