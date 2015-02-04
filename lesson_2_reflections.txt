@@ -25,3 +25,8 @@ How do the diagrams help you visualize the branch structure?
 -Seeing a diagram of a branch structure makes it really easy to see exactly what's going on with the overall
 structure of your git commit history.  Instead of navigating git logs via ID's, date & time (and branch name),
 you can easily see this structure in a diagram.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+-Merging two branches together will examine the changes between the two branches, using their most recent
+common ancestor commit to decide on certain changes.  In this way, we can "smart merge" them into one
+another.  It's helpful to represent them as a diagram so that we can visually see what's going on.
