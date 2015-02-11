@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+-I would want to create a remote repository if I had, say, multiple computers working on the same project.
+For example, if I was working on a work project at home and had two different computers contributing to the same git repo.
+This would also be useful if collaborating with others in a team environment.
+
