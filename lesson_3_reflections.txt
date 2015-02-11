@@ -3,3 +3,9 @@ When would you want to use a remote repository rather than keeping all your work
 For example, if I was working on a work project at home and had two different computers contributing to the same git repo.
 This would also be useful if collaborating with others in a team environment.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+with your remote repository?
+-Pulling changes manually gives you a greater degree of control over what your local directory looks like.
+If GitHub were to automatically push changes to your local environment, you might not be "kept in the loop"
+so to speak, about what your local environment looks like.  Collaborators would be able to alter your local
+environment without your permission, so this isn't a good idea.
