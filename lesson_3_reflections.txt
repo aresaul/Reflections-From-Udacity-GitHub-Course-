@@ -22,3 +22,10 @@ What is the benefit of having a copy of the last known state of the remote store
 -Having the last known state stored locally is useful because it allows for a great degree of offline work.
 For example, if a collaborator is going to be out of touch for a period of time,  having the last known state
 of the repository stored locally on their machine allows them to work even while offline.
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+-Collaborating without git or github would probably involve a really long e-mail chain.  Collaborators would 
+be included in the recipient list and the timestamp would determine the most up-to-date version of the file.
+Of course, this would be easier in that you wouldn't have to learn about all the commands and structure of Git,
+nor how it interacts with GitHub.  This would make things considerably more difficult, however, in that you
+couldn't have branch structure to test out experimental versions of files, you couldn't have merging etc.
