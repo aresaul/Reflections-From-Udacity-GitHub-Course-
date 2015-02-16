@@ -9,3 +9,11 @@ with your remote repository?
 If GitHub were to automatically push changes to your local environment, you might not be "kept in the loop"
 so to speak, about what your local environment looks like.  Collaborators would be able to alter your local
 environment without your permission, so this isn't a good idea.
+
+Describe the differences between forks, clones and branches.  When would you use one instead of another?
+-A clone is copying a repo from one place to another.  I think of a fork as a special case of cloning, 
+in which both the source and destination are on GitHub.  A branch is, as we saw before, just a way of 
+organizing commits such that you can preserve a master version and try experimental features.  When copying
+files from GitHub to the local computer, you can use clone.  When copying files from someone else's GitHub
+to your own, you can use fork.  When working on a large file that needs additional organization to its commits,
+you can use branches.  
