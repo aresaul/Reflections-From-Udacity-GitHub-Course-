@@ -17,3 +17,8 @@ organizing commits such that you can preserve a master version and try experimen
 files from GitHub to the local computer, you can use clone.  When copying files from someone else's GitHub
 to your own, you can use fork.  When working on a large file that needs additional organization to its commits,
 you can use branches.  
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+-Having the last known state stored locally is useful because it allows for a great degree of offline work.
+For example, if a collaborator is going to be out of touch for a period of time,  having the last known state
+of the repository stored locally on their machine allows them to work even while offline.
